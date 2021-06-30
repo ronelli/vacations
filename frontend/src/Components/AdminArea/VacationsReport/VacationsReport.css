@@ -1,0 +1,15 @@
+.VacationsReport > * {
+    margin: 10px auto;
+}
+
+.VacationsReport > .chartContainer {
+    border: 3px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: white;
+}
+.VacationsReport h2 {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}

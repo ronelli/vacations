@@ -1,0 +1,23 @@
+.EditVacation {
+	border: 1px solid black;
+    background-color: rgb(104, 184, 177);
+    max-width: 300px;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0px 1px 1px white;
+}
+.EditVacation label, .EditVacation button{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.EditVacation input, .EditVacation textarea { 
+    width: 55%
+}
+.EditVacation input[type="file"] {
+    text-align-last: center;
+    cursor: pointer;
+}
+.EditVacation button {
+    border-radius: 8px;
+    margin: 10%;
+}

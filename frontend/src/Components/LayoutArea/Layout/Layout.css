@@ -1,0 +1,25 @@
+.Layout {
+    display: grid;
+    grid-template-rows: 17% 72% 10%;
+    grid-template-columns: repeat(6, 1fr);
+	text-align: center;
+    height: 100%;
+    background-image: url("../../../Assets//Images/landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: mainFont;
+}
+
+.Layout > header, .Layout > footer {
+    grid-column: span 6;
+}
+
+.Layout > main { 
+    overflow: auto;
+    grid-column: span 5;
+}
+
+.Layout > * {
+    border: 1px solid black;
+}
+

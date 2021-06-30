@@ -1,0 +1,15 @@
+.Home > * {
+	font-weight: bolder;
+    overflow: auto;
+    height: 400px;
+}
+
+.infoBox {
+    width: 300px;
+    background-color: inherit;
+    height: inherit;
+}
+.titleBox {
+    font-weight: bolder;
+    text-decoration: underline;
+}

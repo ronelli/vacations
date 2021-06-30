@@ -1,0 +1,9 @@
+.Header {
+    height: inherit;
+}
+.Header h1 {
+    font-size: 28px;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+}

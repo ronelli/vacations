@@ -1,0 +1,5 @@
+/* Position 'adding vacation' icon  */
+.VacationList .AddSign {
+	float: right;
+    font-size: xxx-large;
+}

@@ -1,0 +1,31 @@
+.Login h3, .Register h3 {
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+.Login label, .Register label {
+    font-weight: bolder;
+}
+
+.Login > form , .Register > form {
+    border: 1px solid black;
+    display: inline-block;
+    background-color:rgb(155, 217, 238);
+    font-size: larger;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.Login form > div, .Register form > div {
+    font-weight: bolder;
+    font-size: medium;
+    color: rgb(184, 12, 12);
+}
+
+.Login form input, .Register form input {
+    margin: 0 2%;
+}
+
+.Register button, .Login button  {
+    margin: 5% 0;
+}

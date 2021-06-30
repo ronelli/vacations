@@ -1,0 +1,38 @@
+.AddVacation form {
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 1px 1px white;
+    margin: 10px auto;
+    background-color: rgb(104, 184, 177);
+    max-width: 300px;
+}
+
+.AddVacation label, .AddVacation button {
+    text-align: center;
+}
+
+.AddVacation label, .AddVacation button {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.AddVacation button {
+    margin: 10%;
+    border-radius: 8px;
+}
+
+.AddVacation input[type="file"] {
+    text-align-last: center;
+    cursor: pointer;
+}
+
+.AddVacation input, .AddVacation textarea { 
+    width: 55%
+}
+
+.AddVacation span {
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(184, 12, 12);
+    text-decoration: underline;
+}

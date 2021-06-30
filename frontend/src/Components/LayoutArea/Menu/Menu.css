@@ -1,0 +1,15 @@
+.Menu > nav {
+	display: flex;
+    flex-direction: column;
+}
+
+.Menu > nav > a {
+    margin-top: 20px;
+    color: black;
+}
+
+.Menu .active {
+    color: rgb(4, 134, 37);
+    font-weight: bold;
+    font-family: Arial;
+}

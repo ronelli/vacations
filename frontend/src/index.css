@@ -1,0 +1,18 @@
+html, body, #root {
+    height: 100%;
+}
+
+.box {
+    width: 250px;
+    overflow-y: auto;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+@font-face {
+    src: url('./Assets/Fonts/OpenSans-Italic.ttf');
+    font-family: mainFont;
+}
